@@ -39,7 +39,7 @@ public class Jframe extends client implements ActionListener {
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 			JPopupMenu.setDefaultLightWeightPopupEnabled(false);
-			frame = new JFrame("OverloadX 317 Client");
+			frame = new JFrame("SilentTorment Client");
 			frame.setIconImage(Toolkit.getDefaultToolkit().getImage(signlink.findcachedir()+ "Data/Sprites/Jframe/icon.png"));
 			frame.setLayout(new BorderLayout());
 			frame.setResizable(false);
@@ -177,7 +177,7 @@ public class Jframe extends client implements ActionListener {
 				{
         					UserLoader.saveuser();
         					System.out.println("Saving file");
-					JOptionPane.showMessageDialog(null, "Your login details and toggles have been saved!", "OverloadX 317", 1);
+					JOptionPane.showMessageDialog(null, "Your login details and toggles have been saved!", "SilentTorment", 1);
 				}
 				if (cmd.equalsIgnoreCase("Exit")) {
 					System.exit(0);
@@ -240,7 +240,7 @@ public class Jframe extends client implements ActionListener {
 					openUpWebSite("");
 				}
 			if (cmd.equalsIgnoreCase("Client Information")){
-				JOptionPane.showMessageDialog(this, "OverloadX 317 Official Client!\nHead Coder: I Love Santa\nCredits To: Galkon\nHead of Community: Moparscape\nThank you for playing, OverloadX 317 Team!", "Client Updates", JOptionPane.INFORMATION_MESSAGE); 
+				JOptionPane.showMessageDialog(this, "SilentTorment Official Client!\nHead Coder: Justin and Tacohiman\nThank you for playing SilentTorment", "Client Updates", JOptionPane.INFORMATION_MESSAGE); 
 			}
 			if (cmd.equalsIgnoreCase("World Map")){
 				launchURL("2. WorldMap.bat");

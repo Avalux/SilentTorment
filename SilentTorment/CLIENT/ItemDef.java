@@ -268,8 +268,8 @@ public final class ItemDef {
 		case 15295:
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wear";
-			itemDef.name = "@gre@OverloadX Pickaxe"; //Name
-			itemDef.description = "A OverloadX Pickaxe!".getBytes(); //Description
+			itemDef.name = "@gre@SilentTorment Pickaxe"; //Name
+			itemDef.description = "A SilentTorment Pickaxe!".getBytes(); //Description
 			itemDef.originalModelColors = new int[1];
 			itemDef.modifiedModelColors = new int[1];
 			itemDef.originalModelColors[0] = 0;
@@ -394,8 +394,8 @@ public final class ItemDef {
 		case 15296:
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wear";
-			itemDef.name = "@gre@OverloadX Axe"; //Name
-			itemDef.description = "A OverloadX Woodcutting Axe!".getBytes(); //Description
+			itemDef.name = "@gre@SilentTorment"; //Name
+			itemDef.description = "A SilentTorment Woodcutting Axe!".getBytes(); //Description
 			itemDef.originalModelColors = new int[1];
 			itemDef.modifiedModelColors = new int[1];
 			itemDef.originalModelColors[0] = 61;
@@ -696,7 +696,7 @@ break;
             			itemDef.anInt175 = -1;
             			itemDef.anInt197 = -1;
             			itemDef.anInt199 = -1;
-           			itemDef.name = "OverloadX Donator Cape"; // made by nathanr87
+           			itemDef.name = "SilentTorment Donator Cape"; // made by nathanr87
             			itemDef.description = "The Cape Worn By Donators.".getBytes();
 		break;
 		case 15319: //item Id

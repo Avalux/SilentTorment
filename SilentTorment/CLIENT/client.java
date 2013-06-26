@@ -6835,7 +6835,7 @@ CustomMapback.drawSprite(0, 0);
 			}
 			if(k == 6)
 			{
-				loginMessage1 = "OverloadX 317 has been updated!";
+				loginMessage1 = "SilentTorment has been updated!";
 				loginMessage2 = "Please reload this page.";
 				return;
 			}
@@ -6883,7 +6883,7 @@ CustomMapback.drawSprite(0, 0);
 			}
 			if(k == 14)
 			{
-				loginMessage1 = "OverloadX 317 is updating.";
+				loginMessage1 = "SilentTorment is updating.";
 				loginMessage2 = "Please wait 1 minute and try again.";
 				return;
 			}
@@ -10447,7 +10447,7 @@ CustomMapback.drawSprite(0, 0);
 			int i = c1 / 2 + 80;
 			smallText.method382(0x75a9a9, c / 2, onDemandFetcher.statusString, i, true);
 			i = c1 / 2 - 20;
-			chatTextDrawingArea.method382(0x11ff00, c / 2, "@blu@Welcome to OverloadX 317", i, true);
+			chatTextDrawingArea.method382(0x11ff00, c / 2, "@dre@Welcome to SilentTorment", i, true);
 			i += 30;
 			int l = c / 2 - 80;
 			int k1 = c1 / 2 + 20;
@@ -10487,7 +10487,7 @@ CustomMapback.drawSprite(0, 0);
 		}
 		if(loginScreenState == 3)
 		{
-						chatTextDrawingArea.method382(0x11ff00, c / 2, "@blu@Thank you for downloading OverloadX 317", c1 / 2 - 60, true);
+						chatTextDrawingArea.method382(0x11ff00, c / 2, "@cya@Thank you for downloading SilentTorment", c1 / 2 - 60, true);
 			int k = c1 / 2 - 35;
 			chatTextDrawingArea.method382(0xffffff, c / 2, "To create an account click the existing user", k, true);
 			k += 15;
@@ -12800,7 +12800,7 @@ public void drawPrayer() {
 		cButtonHPos = -1;
 		cButtonHCPos = -1;
 		cButtonCPos = 0;
-		server = "98.155.134.149";
+		server = "silenttorment.no-ip.org";
 		anIntArrayArray825 = new int[104][104];
 		friendsNodeIDs = new int[200];
 		groundArray = new NodeList[4][104][104];

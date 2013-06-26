@@ -238,7 +238,7 @@ public final class RSInterface {
 		questTab(textDrawingAreas);
 		PVPInterface2(textDrawingAreas);
 		PVPInterface(textDrawingAreas);
-		overloadxTab(textDrawingAreas);
+		SilentTormentTab(textDrawingAreas);
 		ColorChanger(textDrawingAreas);
 		vote(textDrawingAreas);
 		aMRUNodes_238 = null;
@@ -2711,7 +2711,7 @@ public static void configureLunar(TextDrawingArea[] TDA){
         tab.child(4, 15006, 0, 25);
         scroll.width = 174; scroll.height = 224; scroll.scrollMax = 496;
         
-        addText(15007, "OverloadX 317 Achievements", tda, 2, 0xFF9900, false, true);
+        addText(15007, "SilentTorment\nAchievements", tda, 2, 0xFF9900, false, true);
         /*Lumby/Draynor*/
         addClickableText(15008, "Lumbridge/Draynor", "Read Journal", tda, 0, 0xff0000, 90, 11);
         addClickableText(15009, "Beginner", "Read Journal", tda, 0, 0xff0000, 90, 11);
@@ -2782,10 +2782,10 @@ public static void configureLunar(TextDrawingArea[] TDA){
         scroll.child(29, 15036, 14, 481);
 	}
 
-    public static void overloadxTab(TextDrawingArea[] tda) {
+    public static void SilentTormentTab(TextDrawingArea[] tda) {
         RSInterface tab = addTabInterface(15051);
         RSInterface scroll = addTabInterface(15052);
-        addText(15053, "OverloadX", tda, 2, 0xFF9900, false, true);
+        addText(15053, "SilentTorment", tda, 2, 0xFF9900, false, true);
         addSprite(15054, 0, "Achieve/ACH");
         addSprite(15055, 1, "Achieve/ACH");
         addSprite(15056, 0, "Achieve/ACH");
@@ -2802,7 +2802,7 @@ public static void configureLunar(TextDrawingArea[] TDA){
         addClickableText(15059, "Request a gamebook", "Use", tda, 0, 0x06ff00, 90, 11);
         addClickableText(15060, "Staff teleport", "Use", tda, 0, 0x0c9709, 90, 11);
         addClickableText(15061, "Donator teleport", "Use", tda, 0, 0x06ff00, 90, 11);
-        addClickableText(15062, "Empty", "Use", tda, 0, 0x06ff00, 90, 11);   
+        addClickableText(15062, "Hi", "Use", tda, 0, 0x06ff00, 90, 11);   
 	addSprite(15063, 2, "Achieve/ACH");   
         addText(15064, "Thank you for playing!", tda, 2, 0xFF9900, false, true);
         scroll.totalChildren(8);
